@@ -1,0 +1,47 @@
+.rifle{
+    justify-items: center;
+    width: 200px;
+    height:410px;
+    border: 1px solid #95A0A7;
+    border-radius: 8px;
+    margin: 10px;
+    position: relative;
+}
+.rifle img{
+    width: 190px;
+    height: 190px;
+    padding: 7px;
+}
+.rifle-info{
+    margin:0 14px;
+    
+}
+.rifle-info p{
+    margin-bottom: 0;
+    margin-top: 5px;
+}
+.rifle-name{
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    margin-top: 7px;
+}
+.btn-cart{
+    width: 100%;
+    background: rgb(8, 226, 226);
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    position:absolute;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-text{
+    padding-right: 5px;
+}
+.btn-cart:hover {
+    background-color: orange;
+}

@@ -32,7 +32,7 @@
   {
     "id": 4,
     "name": "Beretta M9A4 RDO",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/beretta.png",
+    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556.png",
     "bullet": "9mm",
     "capacity": "18 + 1",
     "action": "Semi-Automatic",
@@ -81,26 +81,6 @@
   },
   {
     "id": 9,
-    "name": "Bergara B-14 HMR",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/bergara.png",
-    "bullet": "6.5 Creedmoor",
-    "capacity": "5",
-    "action": "Semi-Automatic",
-    "price": "970",
-    "category": "Rifle"
-  },
-  {
-    "id": 10,
-    "name": "Smith & Wesson M&P15",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/S%26WM%26P15.png",
-    "bullet": "5.56x45mm NATO",
-    "capacity": "30 + 1",
-    "action": "Semi-Automatic",
-    "price": "800",
-    "category": "Rifle"
-  },
-  {
-    "id": 11,
     "name": "Ruger AR-556",
     "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556.png",
     "bullet": ".223 NATO",
@@ -108,16 +88,5 @@
     "action": "Semi-Automatic",
     "price": "750",
     "category": "Rifle"
-  },
-  {
-    "id": 12,
-    "name": "Ruger AR-556 MPR",
-    "img": "https://raw.githubusercontent.com/mir-hussain/guns/main/guns/RugerAR556RMP.png",
-    "bullet": ".223 NATO",
-    "capacity": "30 + 1",
-    "action": "Semi-Automatic",
-    "price": "880",
-    "category": "Rifle"
   }
-
 ]
