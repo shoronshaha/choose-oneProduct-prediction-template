@@ -1,3 +1,6 @@
+.cart-heading{
+    color: blue;
+}
 .cart{
     position:sticky;
     top: 0;

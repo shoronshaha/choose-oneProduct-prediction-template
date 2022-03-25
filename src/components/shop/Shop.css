@@ -5,11 +5,13 @@
 .rifle-container{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    
     gap:10px;
     margin-left: 30px;
     margin-right: 30px;
 }
-.cart-container{
-   
-    
+@media screen and (max-width:700px){
+    .rifle-container{
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
 }
