@@ -13,7 +13,7 @@ const Utilities = () => {
             </div>
             <div className='qus-ans'>
                 <h1>2. State Vs Props </h1>
-                <p> <h3>State</h3>
+                <p>
                     The state is an updatable structure that is used to contain data or
                     information about the component and can change over time. The change in state
                     can happen as a response to user action or system event. It is the heart of the react
@@ -21,7 +21,7 @@ const Utilities = () => {
                     A state must be kept as simple as possible. It represents the component's local state or information.
                     It can only be accessed or modified inside the component or by the component directly.</p>
 
-                <p> <h3> Props</h3>
+                <p>
                     Props are read-only components. It is an object which stores the value of attributes of a tag and work similar
                     to the HTML attributes. It allows passing data from one component to other components.
                     It is similar to function arguments and can be passed to the

@@ -17,9 +17,15 @@
     margin-bottom: 20px;
 }
 
-.rest-btn{
+.rest-btn {
     color: white;   
     background-color: orangered;
     width: 100px;
     height: 50px;
+}
+
+p img{
+    width: 40px;
+    height: 40px;
+    border-radius: 10%;
 }

@@ -2,8 +2,7 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    const { cart } = props;
-    console.log({ cart });
+    const { cart, selectOne, restAll, suggest } = props;
 
     return (
         <div className='cart'>
@@ -11,12 +10,17 @@ const Cart = (props) => {
             <div>
                 {
                     cart.map((item) => (
-                        <h4 key={item.id}> Name: {item.name}</h4>
+
+                        <p key={item.id}><img src={item.img} alt="" /> <span className='cart-name'>Name: {item.name}</span>  </p>
                     ))
                 }
             </div>
-            <button className='select-btn'>Select One</button> <br />
-            <button className='rest-btn'>Rest</button>
+            <button onClick={selectOne} className='select-btn' > Select One</button >
+            <div>
+                <h1> name:{suggest.name}</h1>
+            </div>
+            <br />
+            <button onClick={restAll} className='rest-btn'>Rest</button>
 
         </div >
     );

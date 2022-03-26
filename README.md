@@ -1,6 +1,6 @@
 # Online Rifles shop
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+My live site link-- [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
