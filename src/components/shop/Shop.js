@@ -43,7 +43,7 @@ const Shop = () => {
         // setRandom(newRandomCart);
 
     };
-    const restAll = () => {
+    const resetAll = () => {
         setCart([]);
         setSuggest([]);
     }
@@ -63,7 +63,7 @@ const Shop = () => {
             <div className="cart-container">
                 <Cart cart={cart}
                     selectOne={selectOne}
-                    restAll={restAll}
+                    resetAll={resetAll}
                     suggest={suggest}
                 ></Cart>
             </div>

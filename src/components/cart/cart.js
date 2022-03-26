@@ -2,7 +2,7 @@ import React from 'react';
 import './Cart.css'
 
 const Cart = (props) => {
-    const { cart, selectOne, restAll, suggest } = props;
+    const { cart, selectOne, resetAll, suggest } = props;
 
     return (
         <div className='cart'>
@@ -17,10 +17,10 @@ const Cart = (props) => {
             </div>
             <button onClick={selectOne} className='select-btn' > Select One</button >
             <div>
-                <h1> name:{suggest?.name}</h1>
+                <h1> <span className='suggest'>Suggest: </span>{suggest?.name}</h1>
             </div>
             <br />
-            <button onClick={restAll} className='rest-btn'>Rest</button>
+            <button onClick={resetAll} className='rest-btn'>Rest</button>
 
         </div >
     );
