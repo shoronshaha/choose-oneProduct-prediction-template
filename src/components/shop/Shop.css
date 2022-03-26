@@ -9,9 +9,32 @@
     margin-left: 30px;
     margin-right: 30px;
 }
+@media screen and (max-width:600px){
+    .rifle-container{
+        margin: 0;
+        padding: 0;
+        grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+}
+@media screen and (max-width:650px){
+    .rifle-container{
+        margin: 0;
+        padding: 0;
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    }
+}
 @media screen and (max-width:700px){
     .rifle-container{
         margin: 0;
+        padding: 0;
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 }
+@media screen and (max-width:750px){
+    .rifle-container{
+        margin: 0;
+        padding: 0;
+        grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    }
+}
+
