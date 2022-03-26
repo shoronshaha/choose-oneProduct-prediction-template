@@ -14,20 +14,38 @@ const Shop = () => {
     }, [])
 
     const handleAddToCart = (rifle) => {
-        const newCart = [...cart, rifle];
+        let newCart = [];
+        const sameData = cart.find(gun => gun.id === rifle.id);
+        if (!sameData && cart.length < 4) {
+            newCart = [...cart, rifle];
+        }
+        else if (sameData && cart.length < 4) {
+            newCart = [...cart];
+            alert('you added same data');
+        }
+        else if (sameData && cart.length >= 4) {
+            newCart = [...cart];
+            alert('you added same data');
+        }
+        else {
+            newCart = [...cart];
+            alert("Can't add more than 4");
+        }
         setCart(newCart);
     };
 
     const selectOne = () => {
-        const suggestCartName = cart[Math.floor(Math.random() * cart.length)]
-        setSuggest(suggestCartName);
-
+        if (cart.length > 0) {
+            const suggestCartName = cart[Math.floor(Math.random() * cart.length)]
+            setSuggest(suggestCartName);
+        }
         // const newRandomCart = [...random, cart]
         // setRandom(newRandomCart);
 
     };
     const restAll = () => {
         setCart([]);
+        setSuggest([]);
     }
 
     return (

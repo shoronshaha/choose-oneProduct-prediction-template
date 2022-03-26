@@ -17,7 +17,7 @@ const Cart = (props) => {
             </div>
             <button onClick={selectOne} className='select-btn' > Select One</button >
             <div>
-                <h1> name:{suggest.name}</h1>
+                <h1> name:{suggest?.name}</h1>
             </div>
             <br />
             <button onClick={restAll} className='rest-btn'>Rest</button>
